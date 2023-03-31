@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.project-headline,
+.register-headline,
+.login-headline,
+.add-product-headline,
+.products-headline {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/* Styling Navbar */
+
+.navbar {
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: solid 1px cyan;
+}
+
+.navbar-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* Styling Register */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: solid 1px cyan;
+  border-radius: 5px;
+  outline: none;
+  height: 50px;
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+button {
+  border: solid 1px cyan;
+  border-radius: 5px;
+  outline: none;
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.products-list {
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  height: auto;
+  width: max-content;
+  border: solid 1px cyan;
+}
+
+.products-list li {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
